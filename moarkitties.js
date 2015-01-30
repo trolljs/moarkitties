@@ -8,7 +8,7 @@ function replacePics(cat) {
 
 var request = new XMLHttpRequest();
 //stoar the image url
-var catz = 'http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cat'
+var catz = 'https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cat';
 request.open('GET', catz, true);
 
 request.onload = function() {
