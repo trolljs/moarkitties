@@ -2,8 +2,6 @@ function replacePics(cat) {
   // FIND ALL TEH PICTURE ON PAGE
   var images = document.querySelectorAll('img');
   Array.prototype.forEach.call(images, function(el, i){
-    console.log('image found');
-    console.log(el);
     el.setAttribute('src', cat);
   });
 }
