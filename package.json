@@ -1,0 +1,33 @@
+{
+  "name": "moarkitties",
+  "version": "0.1.0",
+  "description": "replace all the images on a page with cat gifs",
+  "main": "dist/moarkitties.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trolljs/moarkitties.git"
+  },
+  "keywords": [
+    "cat",
+    "kitten",
+    "gif"
+  ],
+  "author": "trolljs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trolljs/moarkitties/issues"
+  },
+  "homepage": "https://github.com/trolljs/moarkitties",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-browserify": "^3.3.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0"
+  }
+}
