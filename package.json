@@ -1,7 +1,7 @@
 {
   "name": "moarkitties",
   "version": "0.1.0",
-  "description": "replace all the images on a page with cat gifs",
+  "description": "replace all the images on a page with a cat gif",
   "main": "dist/moarkitties.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
